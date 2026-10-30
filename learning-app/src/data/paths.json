@@ -1,0 +1,189 @@
+[
+  {
+    "id": "ai-foundations",
+    "title": "AI Foundations: Zero to Building",
+    "subtitle": "Go from no AI background to understanding, prompting, and building with modern AI — no engineering degree required.",
+    "audience": "Career-switchers, business professionals, and the AI-curious",
+    "weeks": 6,
+    "color": "#6c8cff",
+    "modules": [
+      {
+        "week": 1,
+        "title": "Programming basics with Python",
+        "goal": "Write simple Python programs and understand how code runs",
+        "items": ["course:https://www.youtube.com/watch?v=nLRL_NcnK-4"]
+      },
+      {
+        "week": 2,
+        "title": "What AI and machine learning actually are",
+        "goal": "Explain ML concepts and see the landscape of modern AI",
+        "items": ["course:https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI"]
+      },
+      {
+        "week": 3,
+        "title": "Generative AI in practice",
+        "goal": "Understand and use generative AI apps and agents",
+        "items": ["course:https://github.com/microsoft/generative-ai-for-beginners"]
+      },
+      {
+        "week": 4,
+        "title": "Prompt engineering and LLM fluency",
+        "goal": "Get consistently useful results from large language models",
+        "items": ["course:https://promptingguide.ai"]
+      },
+      {
+        "week": 5,
+        "title": "Hands-on deep learning",
+        "goal": "Train your first real models with a modern open-source stack",
+        "items": ["course:https://lightning.ai/pages/courses/deep-learning-fundamentals/"]
+      },
+      {
+        "week": 6,
+        "title": "Build your first AI project",
+        "goal": "Apply deep learning end-to-end on a practical problem",
+        "items": ["course:https://www.youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU"]
+      }
+    ]
+  },
+  {
+    "id": "llm-fluency",
+    "title": "Prompt Engineering & LLM Fluency",
+    "subtitle": "Master the craft of working with large language models — from prompting fundamentals to understanding how transformers think.",
+    "audience": "Knowledge workers, developers, and anyone building with LLMs",
+    "weeks": 3,
+    "color": "#3ecf8e",
+    "modules": [
+      {
+        "week": 1,
+        "title": "Prompting fundamentals",
+        "goal": "Learn core techniques: zero-shot, few-shot, chain-of-thought, and more",
+        "items": ["course:https://promptingguide.ai"]
+      },
+      {
+        "week": 2,
+        "title": "How LLMs are built",
+        "goal": "Go from tokenization to attention to training — understand the machinery",
+        "items": [
+          "course:https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"
+        ]
+      },
+      {
+        "week": 3,
+        "title": "The LLM ecosystem",
+        "goal": "Survey how top teams build and deploy LLM applications",
+        "items": [
+          "course:https://www.youtube.com/playlist?list=PL1T8fO7ArWleyIqOy37OVXsP4hFXymdOZ",
+          "course:https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dl-practitioner",
+    "title": "Deep Learning Practitioner",
+    "subtitle": "A serious, university-grade track through deep learning — from neural network fundamentals to research-level topics.",
+    "audience": "Developers and students committed to a career in AI/ML",
+    "weeks": 8,
+    "color": "#ffb454",
+    "modules": [
+      {
+        "week": 1,
+        "title": "Neural networks from first principles",
+        "goal": "Build networks from scratch and understand backpropagation deeply",
+        "items": [
+          "course:https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3",
+          "course:https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ"
+        ]
+      },
+      {
+        "week": 2,
+        "title": "Practical training",
+        "goal": "Train state-of-the-art models with the fast.ai top-down approach",
+        "items": ["course:https://www.youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU"]
+      },
+      {
+        "week": 3,
+        "title": "Systematic foundations",
+        "goal": "Consolidate with a rigorous modern textbook + lecture series",
+        "items": [
+          "course:https://d2l.ai/index.html",
+          "course:https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF"
+        ]
+      },
+      {
+        "week": 4,
+        "title": "Computer vision",
+        "goal": "Master CNNs, detection, and segmentation",
+        "items": [
+          "course:https://www.youtube.com/playlist?app=desktop&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv",
+          "course:https://www.youtube.com/playlist?list=PLZCA39VpuaZajiCtgDDwU8ghchtqx347R"
+        ]
+      },
+      {
+        "week": 5,
+        "title": "NLP and transformers",
+        "goal": "Understand word embeddings, attention, and the transformer architecture",
+        "items": [
+          "course:https://huggingface.co/course/chapter1/1",
+          "course:https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ"
+        ]
+      },
+      {
+        "week": 6,
+        "title": "Generative models and stable diffusion",
+        "goal": "Build diffusion models and generative systems",
+        "items": ["course:https://course.fast.ai/Lessons/part2.html"]
+      },
+      {
+        "week": 7,
+        "title": "Efficiency and production",
+        "goal": "Deploy efficient models on constrained hardware; learn MLOps",
+        "items": [
+          "course:https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB",
+          "course:https://www.youtube.com/playlist?list=PLkDaE6sCZn6GMoA0wbpJLi3t34Gd8l0aK"
+        ]
+      },
+      {
+        "week": 8,
+        "title": "Capstone: pick your frontier",
+        "goal": "Go deep on one advanced area: multimodal, meta-learning, or RL",
+        "items": [
+          "course:https://www.youtube.com/playlist?list=PL-Fhd_vrvisNM7pbbevXKAbT_Xmub37fA",
+          "course:https://youtube.com/playlist?list=PLoROMvodv4rNjRoawgt72BBNwL2V7doGI",
+          "course:https://www.youtube.com/playlist?list=PLqYmG7hTraZDVH599EItlEWsUOsJbAodm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "math-for-ml",
+    "title": "Math for Machine Learning",
+    "subtitle": "The mathematical training your own catalog asks for — probability, linear algebra, and how they power ML.",
+    "audience": "Anyone who wants ML fluency with real mathematical depth",
+    "weeks": 3,
+    "color": "#ff6b9b",
+    "modules": [
+      {
+        "week": 1,
+        "title": "Probability",
+        "goal": "Build intuition from randomness to distributions",
+        "items": ["course:https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo"]
+      },
+      {
+        "week": 2,
+        "title": "Linear algebra",
+        "goal": "Vectors, matrices, and the geometry of data",
+        "items": [
+          "course:https://www.youtube.com/playlist?list=PLB3yPBd26tWyDNoUpEGVsyI-sygPLqYa1",
+          "course:https://www.cs.utexas.edu/users/flame/laff/alaff/ALAFF.html"
+        ]
+      },
+      {
+        "week": 3,
+        "title": "Mathematics applied to ML",
+        "goal": "See the math come alive in a rigorous ML course",
+        "items": ["course:https://www.youtube.com/playlist?list=PLoROMvodv4rNyWOpJg_Yh4NSqI4Z4vOYy"]
+      }
+    ]
+  }
+]

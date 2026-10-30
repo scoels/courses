@@ -1,0 +1,322 @@
+[
+  {
+    "topic": "Generative AI",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2023",
+    "format": "GitHub repository",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "label": "Generative AI for Beginners",
+    "author": "Microsoft"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2023",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PL80kAHvQbh-pT4lCkDT53zT8DKmhE0idB",
+    "label": "6.5940 TinyML and Efficient Deep Learning Computing",
+    "author": "Massachusetts Institute of Technology"
+  },
+  {
+    "topic": "Natural Language Processing",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2023",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLofp2YXfp7TZZ5c7HEChs0_wfEfewLDs7",
+    "label": "Natural Language Processing",
+    "author": "The University of Texas at Austin"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2023",
+    "format": "website",
+    "url": "https://lightning.ai/pages/courses/deep-learning-fundamentals/",
+    "label": "Deep Learning Fundamentals - Learning Deep Learning Using a Modern Open-Source Stack",
+    "author": "Sebastian Raschka"
+  },
+  {
+    "topic": "Large Language Models",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2023",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PL1T8fO7ArWleyIqOy37OVXsP4hFXymdOZ",
+    "label": "LLM Bootcamp - Spring 2023",
+    "author": "The Full Stack"
+  },
+  {
+    "topic": "Python",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2023",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/watch?v=nLRL_NcnK-4",
+    "label": "CS50: Introduction to Programming with Python",
+    "author": "Harvard University x freeCodeCamp.org"
+  },
+  {
+    "topic": "Stable Diffusion and Deep Learning",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2023",
+    "format": "website",
+    "url": "https://course.fast.ai/Lessons/part2.html",
+    "label": "Practical Deep Learning for Coders part 2: Deep Learning Foundations to Stable Diffusion",
+    "author": "fast.ai"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2023",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI",
+    "label": "6.S191: Introduction to Deep Learning",
+    "author": "Massachusetts Institute of Technology"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2023",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+    "label": "Neural Networks: Zero to Hero",
+    "author": "Andrej Karpathy"
+  },
+  {
+    "topic": "Large Language Models and Prompt Engineering",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2023",
+    "format": "website",
+    "url": "https://promptingguide.ai",
+    "label": "Prompt Engineering Guide",
+    "author": "DAIR.AI"
+  },
+  {
+    "topic": "Computer Vision",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2023",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLZCA39VpuaZajiCtgDDwU8ghchtqx347R",
+    "label": "Computer Vision in Practice",
+    "author": "Piotr Skalski x Roboflow"
+  },
+  {
+    "topic": "Natural Language Processing",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2023",
+    "format": "YouTube playlist",
+    "url": "https://youtube.com/playlist?list=PLWnsVgP6CzaelCF_jmn5HrpOXzRAPNjWj",
+    "label": "CS685: Advanced Natural Language Processing",
+    "author": "University of Massachusetts"
+  },
+  {
+    "topic": "Linear Algebra",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2022",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLB3yPBd26tWyDNoUpEGVsyI-sygPLqYa1",
+    "label": "Linear Algebra for Data Science",
+    "author": "Shaina Race"
+  },
+  {
+    "topic": "Machine Learning",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2022",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rNyWOpJg_Yh4NSqI4Z4vOYy",
+    "label": "CS229: Machine Learning",
+    "author": "Stanford University"
+  },
+  {
+    "topic": "MLOps",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2022",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLkDaE6sCZn6GMoA0wbpJLi3t34Gd8l0aK",
+    "label": "Machine Learning Engineering for Production",
+    "author": "Andrew Y. Ng"
+  },
+  {
+    "topic": "Multimodal Machine Learning",
+    "difficulty": 3,
+    "price": "free",
+    "year": "2022",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PL-Fhd_vrvisNM7pbbevXKAbT_Xmub37fA",
+    "label": "11-777: Multimodal Machine Learning",
+    "author": "Carnegie Mellon University"
+  },
+  {
+    "topic": "Deep Multi-Task and Meta Learning",
+    "difficulty": 3,
+    "price": "free",
+    "year": "2022",
+    "format": "YouTube playlist",
+    "url": "https://youtube.com/playlist?list=PLoROMvodv4rNjRoawgt72BBNwL2V7doGI",
+    "label": "CS330 Deep Multi-Task and Meta Learning",
+    "author": "Stanford University"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2022",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLfYUBJiXbdtSvpQjSnJJ_PmDQB_VyT5iU",
+    "label": "Practical Deep Learning for Coders",
+    "author": "fast.ai"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2021",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3",
+    "label": "Neural Networks from Scratch in Python",
+    "author": "Sentdex"
+  },
+  {
+    "topic": "Natural Language Processing",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2021",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rPt5D0zs3YhbWSZA8Q_DyiJ",
+    "label": "CS224U: Natural Language Understanding",
+    "author": "Stanford University"
+  },
+  {
+    "topic": "Transformers",
+    "difficulty": 3,
+    "price": "free",
+    "year": "2021",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rNiJRchCzutFw5ItR_Z27CM",
+    "label": "CS25: Transformers United",
+    "author": "Stanford University"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2021",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLLHTzKZzVU9e6xUfG10TkTWApKSZCzuBI",
+    "label": "NYU-DLSP21: NYU Deep Learning Spring",
+    "author": "New York University"
+  },
+  {
+    "topic": "Natural Language Processing and Transformers",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2021",
+    "format": "website",
+    "url": "https://huggingface.co/course/chapter1/1",
+    "label": "NLP Course",
+    "author": "Hugging Face"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2021",
+    "format": "book",
+    "url": "https://d2l.ai/index.html",
+    "label": "Dive into Deep Learning",
+    "author": "d2l.ai"
+  },
+  {
+    "topic": "Reinforcement Learning",
+    "difficulty": 3,
+    "price": "free",
+    "year": "2021",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLqYmG7hTraZDVH599EItlEWsUOsJbAodm",
+    "label": "Reinforcement Learning Course",
+    "author": "DeepMind x University College London"
+  },
+  {
+    "topic": "Natural Language Processing",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2021",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rOSH4v6133s9LFPRHjEmbmJ",
+    "label": "CS224N: Natural Language Processing with Deep Learning",
+    "author": "Stanford University"
+  },
+  {
+    "topic": "Deep Learning",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2020",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF",
+    "label": "Deep Learning Lecture Series",
+    "author": "DeepMind x University College London"
+  },
+  {
+    "topic": "Linear Algebra",
+    "difficulty": 3,
+    "price": "free",
+    "year": "2019",
+    "format": "website",
+    "url": "https://www.cs.utexas.edu/users/flame/laff/alaff/ALAFF.html",
+    "label": "Advanced Linear Algebra - Foundations to Frontiers",
+    "author": "Margaret E. Myers & Robert A. van de Geijn"
+  },
+  {
+    "topic": "Artificial Intelligence",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2019",
+    "format": "Youtube playlist",
+    "url": "https://youtube.com/playlist?list=PLoROMvodv4rO1NB9TD4iUZ3qghGEGtqNX",
+    "label": "Stanford CS221: Artificial Intelligence: Principles and Techniques",
+    "author": "Stanford University"
+  },
+  {
+    "topic": "Computer Vision",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2019",
+    "format": "Youtube playlist",
+    "url": "https://www.youtube.com/watch?v=dJYGatp4SvA&list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r",
+    "label": "University of Michigan EECS 498.008 / 598.008: Deep Learning for Computer Vision",
+    "author": "University of Michigan"
+  },
+  {
+    "topic": "Computer Vision",
+    "difficulty": 2,
+    "price": "free",
+    "year": "2018",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?app=desktop&list=PL3FW7Lu3i5JvHM8ljYj-zLfQRF3EO8sYv",
+    "label": "CS231n: Deep Learning for Computer Vision",
+    "author": "Stanford University"
+  },
+  {
+    "topic": "Statistics and Probability",
+    "difficulty": 1,
+    "price": "free",
+    "year": "2013",
+    "format": "YouTube playlist",
+    "url": "https://www.youtube.com/playlist?list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo",
+    "label": "Statistics 110: Probability",
+    "author": "Harvard University"
+  }
+]
