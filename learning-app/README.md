@@ -7,6 +7,8 @@ A React learning app that bundles the curated content of
 
 ## Features
 
+- **Guided learning paths**: 4 structured, week-by-week programs (AI Foundations, Prompt Engineering & LLM Fluency, Deep Learning Practitioner, Math for ML) built entirely from the catalog
+- **Path progress tracking**: per-module progress bars and a certificate of completion when you finish a path
 - **810 free books + 32 AI courses** in one searchable catalog
 - Search by title, author, topic, or subject
 - Filter by kind (courses/books), course topic, or book subject

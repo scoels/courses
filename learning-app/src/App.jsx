@@ -1,10 +1,13 @@
 import { useMemo, useState } from "react";
 import courses from "./data/courses.json";
 import books from "./data/books.json";
+import paths from "./data/paths.json";
 import useProgress from "./hooks/useProgress";
 import FilterBar from "./components/FilterBar";
 import ItemCard from "./components/ItemCard";
 import Stats from "./components/Stats";
+import PathList from "./components/PathList";
+import PathDetail from "./components/PathDetail";
 import "./App.css";
 
 const allItems = [
@@ -12,10 +15,14 @@ const allItems = [
   ...books.map((b) => ({ ...b, kind: "book", id: `book:${b.url}` })),
 ];
 
+const itemById = Object.fromEntries(allItems.map((i) => [i.id, i]));
+
 const subjectOptions = [...new Set(books.map((b) => b.subject))].sort();
 const topicOptions = [...new Set(courses.map((c) => c.topic))].sort();
 
 function App() {
+  const [view, setView] = useState("catalog");
+  const [activePath, setActivePath] = useState(null);
   const [kind, setKind] = useState("all");
   const [query, setQuery] = useState("");
   const [topic, setTopic] = useState("");
@@ -37,53 +44,85 @@ function App() {
     });
   }, [kind, query, topic, subject, onlySaved, statuses]);
 
-  const savedCount = Object.keys(statuses).filter((id) => allItems.some((i) => i.id === id)).length;
+  const savedCount = Object.keys(statuses).filter((id) => itemById[id]).length;
 
   return (
     <div className="app">
       <header className="header">
         <h1>🎓 Learning Hub</h1>
         <p>
-          {courses.length} AI courses & {books.length} free programming books, curated from
-          <a href="https://github.com/scoels/courses">scoels/courses</a> and
-          <a href="https://github.com/scoels/free-programming-books">scoels/free-programming-books</a>.
+          Structured learning paths built from {courses.length} AI courses and {books.length} free
+          books.
         </p>
+        <nav className="view-tabs">
+          <button
+            className={view === "catalog" ? "tab active" : "tab"}
+            onClick={() => {
+              setView("catalog");
+              setActivePath(null);
+            }}
+          >
+            📚 Catalog
+          </button>
+          <button
+            className={view === "paths" ? "tab active" : "tab"}
+            onClick={() => {
+              setView("paths");
+              setActivePath(null);
+            }}
+          >
+            🎯 Learning Paths
+          </button>
+        </nav>
       </header>
 
-      <Stats total={allItems.length} saved={savedCount} statuses={statuses} items={allItems} />
-
-      <FilterBar
-        kind={kind}
-        setKind={setKind}
-        query={query}
-        setQuery={setQuery}
-        topic={topic}
-        setTopic={setTopic}
-        topicOptions={topicOptions}
-        subject={subject}
-        setSubject={setSubject}
-        subjectOptions={subjectOptions}
-        onlySaved={onlySaved}
-        setOnlySaved={setOnlySaved}
-      />
-
-      <main className="grid">
-        {items.map((it) => (
-          <ItemCard
-            key={it.id}
-            item={it}
-            status={statuses[it.id] || ""}
-            setStatus={(s) => setStatus(it.id, s)}
+      {view === "catalog" && (
+        <>
+          <Stats total={allItems.length} saved={savedCount} statuses={statuses} />
+          <FilterBar
+            kind={kind}
+            setKind={setKind}
+            query={query}
+            setQuery={setQuery}
+            topic={topic}
+            setTopic={setTopic}
+            topicOptions={topicOptions}
+            subject={subject}
+            setSubject={setSubject}
+            subjectOptions={subjectOptions}
+            onlySaved={onlySaved}
+            setOnlySaved={setOnlySaved}
           />
-        ))}
-        {items.length === 0 && <p className="empty">No results found.</p>}
-      </main>
+          <main className="grid">
+            {items.map((it) => (
+              <ItemCard
+                key={it.id}
+                item={it}
+                status={statuses[it.id] || ""}
+                setStatus={(s) => setStatus(it.id, s)}
+              />
+            ))}
+            {items.length === 0 && <p className="empty">No results found.</p>}
+          </main>
+        </>
+      )}
+
+      {view === "paths" && !activePath && (
+        <PathList paths={paths} statuses={statuses} itemById={itemById} onOpen={setActivePath} />
+      )}
+
+      {view === "paths" && activePath && (
+        <PathDetail
+          path={paths.find((p) => p.id === activePath)}
+          statuses={statuses}
+          itemById={itemById}
+          onBack={() => setActivePath(null)}
+          setStatus={setStatus}
+        />
+      )}
 
       <footer className="footer">
-        <p>
-          A learning companion app · Data bundled at build time · Progress stored locally in your
-          browser
-        </p>
+        <p>Learning companion · Data from scoels/courses + scoels/free-programming-books · Progress saved locally</p>
       </footer>
     </div>
   );

@@ -102,3 +102,85 @@ body {
 .empty { color: var(--muted); grid-column: 1 / -1; text-align: center; padding: 2rem; }
 
 .footer { margin-top: 2rem; text-align: center; color: var(--muted); font-size: 0.8rem; }
+
+/* ===== View tabs ===== */
+.view-tabs { display: flex; gap: 0.5rem; margin-top: 0.75rem; }
+
+/* ===== Learning paths ===== */
+.path-intro { color: var(--muted); margin: 0 0 1.25rem; max-width: 70ch; }
+
+.path-list { display: flex; flex-direction: column; gap: 1rem; }
+.path-card {
+  text-align: left; cursor: pointer; font: inherit; color: var(--text);
+  background: var(--panel); border: 1px solid var(--border);
+  border-left: 4px solid var(--path-color, var(--accent));
+  border-radius: 12px; padding: 1.1rem 1.25rem;
+  transition: border-color 0.15s, transform 0.1s;
+}
+.path-card:hover { border-color: var(--path-color, var(--accent)); transform: translateY(-1px); }
+.path-head { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; flex-wrap: wrap; }
+.path-head h2 { margin: 0; font-size: 1.15rem; }
+.path-weeks { color: var(--muted); font-size: 0.8rem; }
+.path-subtitle { color: var(--muted); margin: 0.4rem 0 0.25rem; font-size: 0.9rem; }
+.path-audience { color: var(--muted); margin: 0 0 0.75rem; font-size: 0.82rem; }
+
+.path-progress { display: flex; align-items: center; gap: 0.75rem; }
+.bar { flex: 1; height: 8px; background: var(--bg); border-radius: 999px; overflow: hidden; }
+.bar-fill { height: 100%; background: var(--path-color, var(--accent)); border-radius: 999px; transition: width 0.3s; }
+.pct { color: var(--muted); font-size: 0.8rem; white-space: nowrap; }
+
+/* ===== Path detail ===== */
+.back-btn {
+  background: none; border: none; color: var(--accent); cursor: pointer;
+  font-size: 0.9rem; padding: 0; margin-bottom: 1rem;
+}
+.back-btn:hover { text-decoration: underline; }
+
+.path-hero {
+  background: var(--panel); border: 1px solid var(--border);
+  border-left: 4px solid var(--path-color, var(--accent));
+  border-radius: 12px; padding: 1.25rem 1.5rem; margin-bottom: 1.25rem;
+}
+.path-hero h2 { margin: 0 0 0.25rem; }
+
+.modules { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.75rem; }
+.module {
+  background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
+  padding: 1rem 1.25rem;
+}
+.module.done { border-color: rgba(62, 207, 142, 0.5); }
+.module-head { display: flex; align-items: baseline; gap: 0.75rem; flex-wrap: wrap; }
+.module-head h3 { margin: 0; font-size: 1rem; flex: 1; }
+.module-week {
+  font-size: 0.72rem; color: var(--path-color, var(--accent)); text-transform: uppercase;
+  letter-spacing: 0.06em; background: color-mix(in srgb, var(--path-color, var(--accent)) 12%, transparent);
+  padding: 0.2rem 0.55rem; border-radius: 999px;
+}
+.module-pct { color: var(--muted); font-size: 0.8rem; }
+.module-goal { color: var(--muted); font-size: 0.85rem; margin: 0.4rem 0 0.75rem; }
+
+.module-items { display: flex; flex-direction: column; gap: 0.5rem; }
+.module-item {
+  display: flex; align-items: center; gap: 0.75rem; flex-wrap: wrap;
+  background: var(--bg); border-radius: 8px; padding: 0.6rem 0.75rem;
+}
+.module-item a { color: var(--text); text-decoration: none; font-size: 0.9rem; flex: 1; min-width: 200px; }
+.module-item a:hover { color: var(--accent); }
+.module-author { color: var(--muted); font-size: 0.75rem; }
+.module-item .status-btn { flex: 0; min-width: 110px; }
+.module-item .status-btn.done { background: rgba(62, 207, 142, 0.18); color: var(--green); }
+.module-bar { margin-top: 0.6rem; height: 4px; }
+
+/* ===== Certificate ===== */
+.certificate { margin: 0 0 1.25rem; }
+.cert-inner {
+  text-align: center; padding: 1.5rem;
+  background: linear-gradient(135deg, rgba(108, 140, 255, 0.15), rgba(62, 207, 142, 0.12));
+  border: 1px solid rgba(108, 140, 255, 0.4); border-radius: 12px;
+}
+.cert-eyebrow {
+  text-transform: uppercase; letter-spacing: 0.15em; font-size: 0.72rem;
+  color: var(--accent); margin: 0 0 0.5rem;
+}
+.cert-inner h3 { margin: 0 0 0.5rem; }
+.cert-body { color: var(--muted); margin: 0; font-size: 0.9rem; }
