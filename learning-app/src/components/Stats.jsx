@@ -1,4 +1,4 @@
-export default function Stats({ total, saved, statuses }) {
+export default function Stats({ total, saved, statuses, streak, last14 }) {
   const learning = Object.values(statuses).filter((s) => s === "learning").length;
   const done = Object.values(statuses).filter((s) => s === "done").length;
 
@@ -20,6 +20,23 @@ export default function Stats({ total, saved, statuses }) {
         <strong>{done}</strong>
         <span>completed</span>
       </div>
+      <div className="stat streak">
+        <strong>
+          🔥 {streak}
+          {streak > 0 ? "d" : ""}
+        </strong>
+        <span>day streak</span>
+      </div>
+      {last14 && (
+        <div className="stat activity">
+          <div className="strip">
+            {last14.map((d) => (
+              <span key={d.date} className={d.active ? "dot on" : "dot"} title={d.date} />
+            ))}
+          </div>
+          <span>last 14 days</span>
+        </div>
+      )}
     </section>
   );
 }

@@ -33,6 +33,14 @@ body {
 .stat { display: flex; flex-direction: column; min-width: 90px; }
 .stat strong { font-size: 1.3rem; }
 .stat span { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.stat.streak strong { color: var(--amber); }
+.stat.activity { min-width: 180px; }
+.strip { display: flex; gap: 3px; margin-bottom: 0.3rem; }
+.dot {
+  width: 9px; height: 9px; border-radius: 3px;
+  background: var(--border);
+}
+.dot.on { background: var(--green); }
 
 .filters {
   display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center;

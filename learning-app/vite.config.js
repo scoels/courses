@@ -1,7 +1,8 @@
-import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+// Set to the repo sub-path when deployed to GitHub Pages.
 export default defineConfig({
+  base: process.env.PAGES_BASE || "/courses/",
   plugins: [react()],
-})
+});

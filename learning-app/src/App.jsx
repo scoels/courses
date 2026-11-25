@@ -28,7 +28,7 @@ function App() {
   const [topic, setTopic] = useState("");
   const [subject, setSubject] = useState("");
   const [onlySaved, setOnlySaved] = useState(false);
-  const { statuses, setStatus } = useProgress();
+  const { statuses, setStatus, streak, last14 } = useProgress();
 
   const items = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -78,7 +78,13 @@ function App() {
 
       {view === "catalog" && (
         <>
-          <Stats total={allItems.length} saved={savedCount} statuses={statuses} />
+          <Stats
+            total={allItems.length}
+            saved={savedCount}
+            statuses={statuses}
+            streak={streak}
+            last14={last14}
+          />
           <FilterBar
             kind={kind}
             setKind={setKind}
